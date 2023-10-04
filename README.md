@@ -59,6 +59,15 @@ Description: Support Vector Classifier (SVC) is a powerful classification algori
 - Text classification: Categorizing text documents into topics or sentiment analysis.
 - Biomedical applications: Predicting disease outcomes or classifying biological data.
 
+### Random Forest Classifier
+Description: Random Forest is an ensemble learning method for classification and regression tasks. It builds a multitude of decision trees during training and combines their predictions to improve accuracy and reduce overfitting. Each decision tree in the forest is trained on a random subset of the data and features. The final prediction is typically the mode (for classification) or the average (for regression) of the predictions made by individual trees.
+
+**Common Uses:**
+
+- Image classification: Identifying objects or patterns in images, such as recognizing animals in wildlife photos.
+- Customer segmentation: Grouping customers based on their behavior and demographics for targeted marketing.
+- Fraud detection: Detecting fraudulent transactions by analyzing patterns in transaction data.
+
 ### Sources & References
 
 The Hundred Page Machine Learning Book
