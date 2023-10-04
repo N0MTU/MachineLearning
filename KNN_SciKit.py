@@ -8,16 +8,18 @@ Created on Wed Oct  4 11:11:10 2023
 import matplotlib.pyplot as plt
 
 #array for small test dataset
-x = [4, 5, 10, 4, 3, 11, 14 , 8, 10, 12]
-y = [21, 19, 24, 17, 16, 25, 24, 22, 21, 21]
+x = [3, 6, 11, 2, 5, 12, 15 , 7, 12, 11]
+y = [20, 16, 23, 13, 15, 23, 27, 21, 20, 21]
 classes = [0, 0, 1, 0, 0, 1, 1, 0, 1, 1]
 
 #Using Scikit library for K nearest neighbours algorithm
 from sklearn.neighbors import KNeighborsClassifier
 
+#convert arrays to points
 data = list(zip(x, y))
 knn = KNeighborsClassifier(n_neighbors=5)
 
+#fit KNN model onto dataset using 5 nearest neighbours
 knn.fit(data, classes)
 new_x = 8
 new_y = 21
