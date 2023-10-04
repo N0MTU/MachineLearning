@@ -59,8 +59,24 @@ Description: Support Vector Classifier (SVC) is a powerful classification algori
 - Text classification: Categorizing text documents into topics or sentiment analysis.
 - Biomedical applications: Predicting disease outcomes or classifying biological data.
 
+### Sources & References
+
+The Hundred Page Machine Learning Book
+https://themlbook.com/
+
+Deep Learning (Adaptive Computation and Machine Learning Series)
+https://www.deeplearningbook.org/
+
+Stanford Machine Learning Lectures (Andrew Ng)
+[https://www.youtube.com/watch?v=jGwO_UgTS7I](https://www.youtube.com/watch?v=Bl4Feh_Mjvo&list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy)
+
+Distill ML Blog
+https://distill.pub/
+
+
 ### License
 This repository is licensed under the MIT License. Feel free to use and modify the code for your projects.
 
 ### Contributions
 Contributions are welcome! If you'd like to contribute to this repository, please fork it, make your changes, and submit a pull request.
+
